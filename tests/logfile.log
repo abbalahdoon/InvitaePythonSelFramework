@@ -352,3 +352,89 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2021-06-01 18:30:26,076 :INFO : test_CreateAccountWithRegisteredUser :email address is
 2021-06-01 18:30:27,275 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
 2021-06-01 18:30:30,324 :INFO : test_CreateAccount :email address is
+2021-06-01 19:10:56,640 :INFO : test_CreateAccountWithRegisteredUser :email address is
+2021-06-01 19:10:57,497 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-01 19:10:59,734 :INFO : test_CreateAccount :email address is
+2021-06-01 19:11:11,136 :INFO : test_SignIn :first name is
+2021-06-01 19:11:12,503 :INFO : test_SignIn :Text received from application is Authentication failed.
+2021-06-01 19:16:25,786 :INFO : test_CreateAccountWithRegisteredUser :email address is
+2021-06-01 19:16:26,342 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-01 19:16:27,483 :INFO : test_CreateAccount :email address is
+2021-06-01 19:27:12,225 :INFO : test_SignIn :first name is
+2021-06-01 19:27:13,094 :INFO : test_SignIn :Text received from application is Authentication failed.
+2021-06-01 19:29:29,231 :INFO : test_CreateAccountWithRegisteredUser :email address is
+2021-06-01 19:29:30,043 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-01 19:30:07,825 :INFO : test_CreateAccount :email address is
+2021-06-01 19:44:34,222 :INFO : test_SignIn :Error Message is: Authentication failed.
+2021-06-01 19:53:53,200 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-01 19:53:55,107 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-01 19:53:55,634 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-01 20:10:17,902 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-01 20:10:19,691 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-01 20:10:20,237 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-01 20:10:23,625 :INFO : test_SignInWithValidCredentials :User is successfully signed in
+2021-06-01 20:20:47,567 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-01 20:20:48,228 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-01 20:21:10,742 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-01 20:21:11,857 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-01 21:26:55,016 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-01 21:26:59,511 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-01 21:27:00,592 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:03:23,589 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 02:03:26,415 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 02:03:26,952 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:17:06,902 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 02:17:09,718 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 02:17:11,332 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:17:14,714 :INFO : test_SignInWithValidCredentials :User is not successfully signed in
+2021-06-03 02:36:05,264 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 02:36:08,418 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 02:36:09,292 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:36:12,805 :INFO : test_SignInWithValidCredentials :User is successfully signed in
+2021-06-03 02:37:01,186 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 02:37:04,725 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 02:37:05,811 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:37:10,485 :INFO : test_SignInWithValidCredentials :User is successfully signed in
+2021-06-03 02:41:40,089 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 02:41:42,234 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 02:41:43,449 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:41:46,767 :INFO : test_SignInWithValidCredentials :User is successfully signed in
+2021-06-03 02:43:54,319 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 02:43:59,821 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 02:44:02,456 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:44:11,793 :INFO : test_SignInWithValidCredentials :User is successfully signed in
+2021-06-03 02:48:15,264 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 02:48:17,667 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 02:48:18,594 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:48:22,374 :INFO : test_SignInWithValidCredentials :User is successfully signed in
+2021-06-03 02:51:52,802 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 02:51:55,380 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 02:51:56,133 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:51:59,653 :INFO : test_SignInWithValidCredentials :User is successfully signed in
+2021-06-03 02:55:07,183 :INFO : test_SignInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 02:55:11,804 :INFO : test_CreateAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 02:55:13,072 :INFO : test_CreateAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 02:55:18,478 :INFO : test_SignInWithValidCredentials :User is successfully signed in
+2021-06-03 03:01:12,051 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-03 03:01:16,852 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 03:01:21,797 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 03:01:33,457 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-03 03:22:22,516 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-03 03:27:55,466 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-03 03:38:21,884 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-03 03:41:45,020 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-03 04:02:36,748 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-03 19:04:00,610 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 19:04:01,200 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 19:04:04,858 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-03 19:57:42,224 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-03 19:57:43,730 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-03 19:58:03,092 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-03 19:59:07,629 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-04 16:37:33,024 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-04 16:37:35,732 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-04 16:37:36,519 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-04 16:37:40,522 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-04 16:37:59,469 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-04 17:52:58,831 :INFO : test_ListView :User is successfully signed out
+2021-06-04 17:55:35,858 :INFO : test_GridView :User is successfully view in grid mode
