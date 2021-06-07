@@ -21,6 +21,11 @@ def setup(request):
         driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe", options=chrome_options)
         driver.delete_all_cookies()
         driver.maximize_window()
+
+        '''
+        Below code is put to show that crossbrowser testing can be done
+        but tests have not been ran against FF. 
+        '''
     # elif browser_name == "firefox":
     #     driver = webdriver.Firefox(executable_path="C:\\geckodriver.exe")
     #     driver.maximize_window()
