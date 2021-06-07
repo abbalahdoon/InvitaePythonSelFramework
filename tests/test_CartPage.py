@@ -39,11 +39,11 @@ class TestCartPage(BaseClass):
         buttons = searchpage.AddToCart()
         for button in buttons:
             button.click()
-        time.sleep(2)
+        time.sleep(3)
         searchpage.getProceedToCheckout()
 
         summarypage = SummaryPage(self.driver)
-        time.sleep(2)
+        time.sleep(3)
         assert "7" in summarypage.getProductAmount().text
         assert "198.38" in summarypage.getTotalPrice().text
         log.info("User is able to add items to cart. Item amount and total price are calculated successfully")
@@ -62,7 +62,7 @@ class TestCartPage(BaseClass):
         newTotPrice = float(198.38 - delAmount)
         newTotalPriceString = str(newTotPrice)
         print(newTotPrice)
-        time.sleep(2)
+        time.sleep(3)
         assert "6" in summarypage.getProductAmount().text
         assert newTotalPriceString in summarypage.getTotalPrice().text
         log.info("User is able to remove items from cart. Item amount and total price are calculated successfully")

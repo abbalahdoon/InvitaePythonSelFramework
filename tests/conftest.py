@@ -15,14 +15,15 @@ def setup(request):
     browser_name=request.config.getoption("browser_name")
     if browser_name == "chrome":
         chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument("--start-maximized")
+        #chrome_options.add_argument("--start-maximized")
         #chrome_options.add_argument("headless")
         chrome_options.add_argument("--ignore-certificate-errors")
         driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe", options=chrome_options)
         driver.delete_all_cookies()
-    elif browser_name == "firefox":
-        driver = webdriver.Firefox(executable_path="C:\\geckodriver.exe")
         driver.maximize_window()
+    # elif browser_name == "firefox":
+    #     driver = webdriver.Firefox(executable_path="C:\\geckodriver.exe")
+    #     driver.maximize_window()
 
     driver.implicitly_wait(5)
     driver.get("http://automationpractice.com/index.php")
@@ -43,7 +44,7 @@ def pytest_runtest_makereport(item):
     extra = getattr(report, 'extra', [])
 
     if report.when == 'call' or report.when == "setup":
-        file_name = report.nodeid.replace("::", "_") + ".png"
+        file_name = "./screenshots/" + report.nodeid.replace("::", "_") + ".png"
         _capture_screenshot(file_name)
         if file_name:
             html = '<div><img src="%s" alt="screenshot" style="width:304px;height:228px;" ' \
@@ -54,4 +55,10 @@ def pytest_runtest_makereport(item):
 
 def _capture_screenshot(name):
     driver.get_screenshot_as_file(name)
+
+def pytest_configure(config):
+    config.option.htmlpath = './report.html'
+
+
+
 

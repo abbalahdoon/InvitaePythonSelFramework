@@ -39,11 +39,11 @@ class TestEndToEnd(BaseClass):
         buttons = searchpage.AddToCart()
         for button in buttons:
             button.click()
-        time.sleep(2)
+        time.sleep(3)
         searchpage.getProceedToCheckout()
 
         summarypage = SummaryPage(self.driver)
-
+        time.sleep(3)
         assert "7" in summarypage.getProductAmount().text
         assert "198.38" in summarypage.getTotalPrice().text
         time.sleep(2)
