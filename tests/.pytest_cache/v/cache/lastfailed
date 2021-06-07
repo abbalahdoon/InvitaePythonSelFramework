@@ -1,0 +1,8 @@
+{
+  "test_AuthenticationPage.py::TestAuthenticationPage::test_SignOut": true,
+  "test_CartPage.py::TestCartPage::test_RemoveCart": true,
+  "test_CreateAccountPage.py::TestCreateAccountPage::test_CreateAccount": true,
+  "test_HomePage.py::TestHomePage::test_formSubmission[getData0]": true,
+  "test_HomePage.py::TestHomePage::test_formSubmission[getData1]": true,
+  "test_formSubmission.py::TestTwo::test_e2e": true
+}
