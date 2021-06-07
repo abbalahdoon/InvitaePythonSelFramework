@@ -438,3 +438,88 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2021-06-04 16:37:59,469 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
 2021-06-04 17:52:58,831 :INFO : test_ListView :User is successfully signed out
 2021-06-04 17:55:35,858 :INFO : test_GridView :User is successfully view in grid mode
+2021-06-06 18:12:30,932 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-06 18:12:37,984 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-06 18:12:38,625 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-06 18:12:44,115 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-06 18:14:33,683 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 18:17:08,935 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-06 18:17:25,344 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-06 18:17:26,710 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-06 18:17:36,564 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-06 18:18:44,050 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 18:26:33,090 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 18:31:31,160 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 18:32:56,968 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 18:33:59,402 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 18:37:59,095 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 18:38:05,160 :INFO : test_ListView :User is successfully view in list mode
+2021-06-06 18:38:11,613 :INFO : test_GridView :User is successfully view in grid mode
+2021-06-06 18:38:38,715 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-06 18:38:41,971 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-06 18:38:42,802 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-06 18:38:46,635 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-06 18:39:04,807 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 18:39:10,927 :INFO : test_ListView :User is successfully view in list mode
+2021-06-06 18:39:16,352 :INFO : test_GridView :User is successfully view in grid mode
+2021-06-06 18:39:57,511 :INFO : test_e2e :User successfully completed order
+2021-06-06 18:46:53,339 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-06 18:46:55,993 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-06 18:46:56,509 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-06 18:47:01,194 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-06 18:47:58,385 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-06 18:48:01,769 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-06 18:48:02,455 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-06 18:48:07,569 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-06 18:48:11,879 :INFO : test_signOut :User is successfully signed out
+2021-06-06 19:19:03,471 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-06 19:19:07,273 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-06 19:19:08,114 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-06 19:19:12,417 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-06 19:19:15,299 :INFO : test_signOut :User is successfully signed out
+2021-06-06 19:24:26,292 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-06 19:24:29,448 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-06 19:24:29,960 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-06 19:24:34,243 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-06 19:24:37,324 :INFO : test_signOut :User is successfully signed out
+2021-06-06 19:24:50,257 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 19:24:56,000 :INFO : test_ListView :User is successfully view in list mode
+2021-06-06 19:25:01,331 :INFO : test_GridView :User is successfully view in grid mode
+2021-06-06 19:25:34,745 :INFO : test_e2e :User successfully completed order
+2021-06-06 19:37:04,358 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 19:39:18,114 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-06 19:39:20,953 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-06 19:39:21,538 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-06 19:39:25,216 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-06 19:39:27,624 :INFO : test_signOut :User is successfully signed out
+2021-06-06 19:39:47,668 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 19:39:59,829 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 19:40:05,091 :INFO : test_ListView :User is successfully view in list mode
+2021-06-06 19:40:11,446 :INFO : test_GridView :User is successfully view in grid mode
+2021-06-06 19:40:46,605 :INFO : test_e2e :User successfully completed checkout process
+2021-06-06 19:42:55,165 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 19:45:52,677 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 19:47:40,189 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:00:02,089 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:02:17,194 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:05:22,953 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:09:23,509 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:10:18,290 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:12:06,576 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:13:21,252 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:16:02,884 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:16:06,076 :INFO : test_RemoveCart :User is able to remove items from cart. Item amount and total price are calculated successfully
+2021-06-06 20:17:18,850 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:18:51,899 :INFO : test_AddtoCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:18:55,045 :INFO : test_RemoveCart :User is able to remove items from cart. Item amount and total price are calculated successfully
+2021-06-06 20:27:17,493 :INFO : test_signInWithInvalidCredentials :Error Message is: Authentication failed.
+2021-06-06 20:27:20,539 :INFO : test_createAccountWithRegisteredUser :email address is tubaozden@gmail.com
+2021-06-06 20:27:21,159 :INFO : test_createAccountWithRegisteredUser :Text received from application is An account using this email address has already been registered. Please enter a valid password or request a new one.
+2021-06-06 20:27:24,902 :INFO : test_signInWithValidCredentials :User is successfully signed in
+2021-06-06 20:27:32,179 :INFO : test_signOut :User is successfully signed out
+2021-06-06 20:28:18,717 :INFO : test_AddToCart :User is able to add items to cart. Item amount and total price are calculated successfully
+2021-06-06 20:28:21,911 :INFO : test_RemoveCart :User is able to remove items from cart. Item amount and total price are calculated successfully
+2021-06-06 20:28:39,493 :INFO : test_SearchWithNoResults :Search result message is :  No results were found for your search "glass"
+2021-06-06 20:28:54,298 :INFO : test_ListView :User is successfully view in list mode
+2021-06-06 20:28:59,927 :INFO : test_GridView :User is successfully view in grid mode
+2021-06-06 20:29:39,069 :INFO : test_e2e :User completed checkout process,successfully submitted order

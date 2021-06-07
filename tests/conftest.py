@@ -28,7 +28,7 @@ def setup(request):
     driver.get("http://automationpractice.com/index.php")
     request.cls.driver = driver
     yield
-    #driver.close()
+    driver.close()
 
 
 @pytest.mark.hookwrapper
