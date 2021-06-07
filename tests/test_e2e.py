@@ -20,7 +20,7 @@ from utilities.BaseClass import BaseClass
 
 
 class TestEndToEnd(BaseClass):
-
+    #Verify that user is able to process checkout successfully
     def test_e2e(self, getData):
         log = self.getLogger()
         authenticationpage = AuthenticationPage(self.driver)
@@ -69,7 +69,7 @@ class TestEndToEnd(BaseClass):
         confirmpage = ConfirmPage(self.driver)
         confirmation = confirmpage.getConfirmationText().text
         assert "complete" in confirmation
-        log.info("User completed checkout process,successfully submitted order")
+        log.info("User is able to complete checkout process successfully. Order is complete")
 
 
     @pytest.fixture(params=AuthenticationPageData.test_AuthenticationPage_data)

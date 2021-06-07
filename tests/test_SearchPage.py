@@ -18,11 +18,11 @@ class TestSearchPage(BaseClass):
         searchpage.submitSearch()
         self.verifyElementPresence("css", "p.alert.alert-warning")
         searchResultMessage = searchpage.getSearchResult().text
-        log.info("Search result message is :  " + searchResultMessage)
+        log.info("User is able to view no result message successfully. Search result message is :  " + searchResultMessage)
         assert ("No results" in searchResultMessage)
         self.driver.back()
 
-    # Verify that user view the items in list view
+    # Verify that user is able to view the items in list view mode
     def test_ListView(self):
         log = self.getLogger()
         authenticationpage = AuthenticationPage(self.driver)
@@ -31,10 +31,10 @@ class TestSearchPage(BaseClass):
         searchpage.submitSearch()
         searchpage.getListView().click()
         assert searchpage.getListSelected().get_attribute("class") == "selected"
-        log.info("User is successfully view in list mode")
+        log.info("User is able to view items in list mode successfully")
         self.driver.back()
 
-    #Verify that user view the items in grid view
+    #Verify that user is able to view the items in grid view mode
     def test_GridView(self):
         log = self.getLogger()
         searchpage = SearchPage(self.driver)
@@ -43,7 +43,7 @@ class TestSearchPage(BaseClass):
         searchpage.getListView().click()
         searchpage.getGridView().click()
         assert searchpage.getGridSelected().get_attribute("class") == "selected"
-        log.info("User is successfully view in grid mode")
+        log.info("User is able to view items in grid mode successfully")
 
 
 

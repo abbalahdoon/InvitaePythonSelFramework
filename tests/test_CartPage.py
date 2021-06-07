@@ -20,6 +20,7 @@ from utilities.BaseClass import BaseClass
 
 
 class TestCartPage(BaseClass):
+    #Verify that user is able to add items to cart
     def test_AddToCart(self):
         log = self.getLogger()
         authenticationpage = AuthenticationPage(self.driver)
@@ -47,6 +48,7 @@ class TestCartPage(BaseClass):
         assert "198.38" in summarypage.getTotalPrice().text
         log.info("User is able to add items to cart. Item amount and total price are calculated successfully")
 
+    #Verify that user can remove an item from shopping cart
     def test_RemoveCart(self):
         log = self.getLogger()
         summarypage = SummaryPage(self.driver)

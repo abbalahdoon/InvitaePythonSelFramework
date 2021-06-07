@@ -11,7 +11,7 @@ from utilities.BaseClass import BaseClass
 
 class TestAuthenticationPage(BaseClass):
 
-    #Verify user is not able to sign in with invalid credentials
+    #Verify that user is not able to sign in with invalid credentials
     def test_signInWithInvalidCredentials(self):
         log = self.getLogger()
         authenticationpage = AuthenticationPage(self.driver)
@@ -21,12 +21,12 @@ class TestAuthenticationPage(BaseClass):
         authenticationpage.getPassword().send_keys("password")
         authenticationpage.clickSignInButton()
         errorMessage = authenticationpage.getErrorMessage().text
-        log.info("Error Message is: " + errorMessage)
+        log.info("User is able to view error message successfully. Error Message is: " + errorMessage)
         assert ("Authentication failed" in errorMessage)
 
         self.driver.refresh()
 
-    # Verify error message is displayed when user creates an account with already existing email address
+    # Verify that an error message is displayed when user creates an account with already existing email address
     def test_createAccountWithRegisteredUser(self):
         log = self.getLogger()
         authenticationpage = AuthenticationPage(self.driver)
@@ -40,7 +40,7 @@ class TestAuthenticationPage(BaseClass):
         log.info("Text received from application is " + errMessageAlreadyRegistered)
         assert ("has already been registered" in errMessageAlreadyRegistered)
 
-    # Verify user is able to sign in with valid credentials
+    # Verify that user is able to sign in with valid credentials
     def test_signInWithValidCredentials(self,getData):
         log = self.getLogger()
         authenticationpage = AuthenticationPage(self.driver)
@@ -52,11 +52,11 @@ class TestAuthenticationPage(BaseClass):
         authenticationpage.clickSignInButton()
         welcomeMessage = authenticationpage.getWelcomeMessage().text
         if "Welcome" in welcomeMessage:
-            log.info("User is successfully signed in")
+            log.info("User is successfully signed in with valid credentials")
         else:
             log.info("User is NOT successfully signed in")
 
-    #Verify user is able to sign out successfully
+    #Verify that user is able to sign out successfully
     #@pytest.fixture(scope="session")
     def test_signOut(self):
         log = self.getLogger()
